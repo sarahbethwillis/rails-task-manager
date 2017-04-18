@@ -1,0 +1,19 @@
+<div class="container">
+  <div class="product-controls list-inline">
+    <div class="product">
+      <h1><%= image_tag("bananacopy.png") %></h1>
+      <h2>to do list</h2>
+    </div>
+    <div class="content">
+      <h1><%= @tasks.each do |task| %></h1>
+      <h2><%= link_to task.name, task_path(task) %></h2>
+      <h3><%= task.details %></h3>
+    </div>
+  </div>
+</div>
+
+<% end %>
+
+
+
+

@@ -1,0 +1,33 @@
+// Place all the styles related to the tasks controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.product {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+
+.product-controls img {
+  color: white;
+  flex: 0 0 auto;
+
+}
+
+.content {
+  font-size: 50px;
+  font-weight: bold;
+  text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  text-decoration: none;
+  color: #EFC100;
+}
+
+.content a {
+  font-size: 50px;
+  font-weight: bold;
+  text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  text-decoration: none;
+  color: #EFC100;
+}
